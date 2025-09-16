@@ -7,7 +7,7 @@ toolchain go1.24.5
 replace (
 	github.com/portworx/sched-ops => github.com/portworx/sched-ops v0.20.4-openstorage-rc3 // required by Rook v1.12
 	github.com/red-hat-storage/ocs-client-operator/api => ./api
-	github.com/red-hat-storage/ocs-operator/services/provider/api/v4 => ../ocs-operator/services/provider/api/
+	github.com/red-hat-storage/ocs-operator/services/provider/api/v4 => github.com/nikhil-ladha/ocs-operator/services/provider/api/v4 v4.0.0-20250917095253-cf05c428eef0
 	k8s.io/client-go v12.0.0+incompatible => k8s.io/client-go v0.29.0
 	vbom.ml/util => github.com/fvbommel/util v0.0.0-20180919145318-efcd4e0f9787
 )
